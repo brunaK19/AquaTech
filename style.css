@@ -5,6 +5,154 @@ body{
     background-color: whitesmoke;
 }
 
+.login{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('./img/bg-jelly-fish-para_outras_pags.png');
+}
+
+.login a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: large;
+    background-color:#112e8d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: 2%;
+}
+
+.login a:hover{
+    
+    background-color:#2145bd;
+    
+}
+
+
+.form-login{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 25vh;
+    display: flex;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.form-login h1{
+    color: #157a8a;;
+}
+
+.form-login p{
+    text-align: left;
+}
+
+.form-login input{
+    border: none;
+    border-bottom: 2px solid #157a8a;
+    font-size: medium;
+}
+
+.form-login input:focus{
+    outline: 0;
+}
+
+.form-login button{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    align-self: center;
+    font-size: medium;
+    color: #ffff;
+    background-color: #157a8a;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+.form-login button:hover{
+
+    background-color: #10555f;
+
+}
+
+.cadastro{
+    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url('./img/bg-jelly-fish-para_outras_pags.png');
+}
+
+.cadastro a{
+    color: #ffff;
+    text-decoration: none;
+    font-size: large;
+    background-color:#112e8d;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-left: 2%;
+}
+
+.cadastro a:hover{
+    
+    background-color:#2145bd;
+    
+}
+
+
+.form-cadastro{
+    background-color: #ffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 10vh;
+    display: flex;
+    padding: 20px 30px;
+    border-radius: 8px;
+}
+
+.form-cadastro h1{
+    color: #157a8a;;
+}
+
+.form-cadastro p{
+    text-align: left;
+}
+
+.form-cadastro input{
+    border: none;
+    border-bottom: 2px solid #157a8a;
+    font-size: medium;
+}
+
+.form-cadastro input:focus{
+    outline: 0;
+}
+
+.form-cadastro button{
+    width: 40%;
+    text-align: center;
+    padding: 10px;
+    align-self: center;
+    font-size: medium;
+    color: #ffff;
+    background-color: #157a8a;
+    border: none;
+    border-radius: 8px;
+    margin-top: 5%;
+}
+
+.form-cadastro button:hover{
+
+    background-color: #10555f;
+
+}
+
 .container{
     width: 80%;
     margin: auto;
@@ -31,6 +179,23 @@ body{
     
 }
 
+.navbar a{
+    text-decoration: none;
+    color: #052b31;
+    background-color: #32b9cd;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.navbar a:visited{
+    color: #052b31;
+}
+
+.navbar a:hover{
+    background-color: #0b454e;
+    padding: 10px 20px;
+}
 .header .container{
     justify-content: space-between;
 }
